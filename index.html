@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME - Physioline</title>
+    <link rel="stylesheet" href="assets/style/especialidades.css">
+    <link rel="stylesheet" href="assets/style/home.css">
+    <link rel="stylesheet" href="assets/style/menu.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/sobre.css">
+    <link rel="stylesheet" href="assets/style/valores.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cambay:ital@0;1&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <button onclick="toogleSidebar()" class="btn__header__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+        <div class="header__logo">
+            <img class="header__img__logo" src="assets/img/logo.png" alt="Logo da Clínica Physioline">
+        </div>
+
+        <nav class="header__nav" id="header__nav">
+            <button onclick="toogleSidebar()" class="btn__header__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+            </button>
+            <a href="#" class="active">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Especiliades</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main tabindex="0" class="main" onclick="closeSidebar()" id="main">
+        <div class="main__conteudo">
+            <h1>Transforme sua vida!</h1>
+            <p>Descubra o Poder da Fisioterapia para uma recuperação completa. Nossos profissionais altamente
+                qualificados estão prontos para ajudá-lo! Deixe-nos cuidar de você e alcance uma vida mais saudável e
+                feliz.</p>
+            <button>Agendar</button>
+        </div>
+        <div class="main__img">
+            <img src="assets/img/redonda.svg" alt="Imagem principal">
+        </div>
+    </main>
+
+    <article class="article__sobre">
+        <h2>Sobre</h2>
+
+
+        <p>Localizada na região central de Brasília, a Physio Line é uma empresa especializada em saúde, reabilitação e
+            bem-estar. Foi especialmente criada com o intuito de oferecer um serviço especializado e diferenciado para
+            pessoas que buscam melhor qualidade de vida. Além de oferecer serviços a um preço altamente competitivo e
+            acessível, a empresa diferencia-se pela qualidade e pela inovação, como no serviço de Baby Pilates,
+            atendimentos empresariais e domiciliares.
+        </p>
+
+    </article>
+
+    <article class="section__valores">
+        <div class="section__valores__card">
+            <div class="section__valores__card__content">
+                <h3>Missão</h3>
+                <p>Oferecer serviços de saúde de qualidade, com atendimento humanizado, buscando sempre a inovação e a
+                    excelência.</p>
+            </div>
+        </div>
+
+        <div class="section__valores__card">
+            <div class="section__valores__card__content">
+                <h3>Visão</h3>
+                <p>Ser uma empresa de saúde reconhecida no Distrito Federal, pela qualidade dos serviços estados.</p>
+            </div>
+        </div>
+
+        <div class="section__valores__card">
+            <div class="section__valores__card__content">
+                <h3>Valores</h3>
+                <p>Agir com transparência e compromisso com a saúde de nosso clientes, mantendo o profissionalismo,
+                    qualidade e responsabilidade</p>
+            </div>
+        </div>
+
+    </article>
+
+    <section class="section__especialidades">
+        <h2>Nossas especialidades </h2>
+        <p>Oferecemos diversas especialidades para quem busca qualidade de vida.</p>
+
+
+        <div class="l-cards">
+            <div class="section__especialidades__card">
+                <div class="section__especialidades__card__img">
+                    <img src="assets/img/fisioterapia.jpeg" alt="">
+                </div>
+                <div class="section__especialidades__card__content">
+                    <h4>Fisioterapia</h4>
+                </div>
+            </div>
+            <div class="section__especialidades__card">
+                <div class="section__especialidades__card__img">
+                    <img src="assets/img/fisioterapia.jpeg" alt="">
+                </div>
+                <div class="section__especialidades__card__content">
+                    <h4>Fisioterapia</h4>
+                </div>
+            </div>
+            <div class="section__especialidades__card">
+                <div class="section__especialidades__card__img">
+                    <img src="assets/img/fisioterapia.jpeg" alt="">
+                </div>
+                <div class="section__especialidades__card__content">
+                    <h4>Fisioterapia</h4>
+                </div>
+            </div>
+            <div class="section__especialidades__card">
+                <div class="section__especialidades__card__img">
+                    <img src="assets/img/fisioterapia.jpeg" alt="">
+                </div>
+                <div class="section__especialidades__card__content">
+                    <h4>Fisioterapia</h4>
+                </div>
+            </div>
+            <div class="section__especialidades__card">
+                <div class="section__especialidades__card__img">
+                    <img src="assets/img/fisioterapia.jpeg" alt="">
+                </div>
+                <div class="section__especialidades__card__content">
+                    <h4>Fisioterapia</h4>
+                </div>
+            </div>
+            <div class="section__especialidades__card">
+                <div class="section__especialidades__card__img">
+                    <img src="assets/img/fisioterapia.jpeg" alt="">
+                </div>
+                <div class="section__especialidades__card__content">
+                    <h4>Fisioterapia</h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+<script>
+    var header = document.getElementById('header');
+    var navHeader = document.getElementById('header__nav');
+    var main = document.getElementById('main');
+    var showSidebar = false;
+
+    function toogleSidebar() {
+        showSidebar = !showSidebar;
+        if (showSidebar) {
+            navHeader.style.marginLeft = '-10vw';
+            navHeader.style.animationName = 'showSidebar';
+            main.style.filter = 'blur(2px)';
+        }
+        else {
+            navHeader.style.marginLeft = '-100vh';
+            navHeader.style.animationName = '';
+            main.style.filter = '';
+        }
+    }
+
+    function closeSidebar() {
+        if (showSidebar) {
+            toogleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function (event) {
+        if (window.innerWidth > 768 && showSidebar) {
+            toogleSidebar();
+        }
+    });
+</script>
+
+</html>
