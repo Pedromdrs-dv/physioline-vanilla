@@ -44,13 +44,6 @@ body {
     color: #17554a;
 }
 
-.main {
-    padding: 5em;
-    padding-top: 5em;
-    height: 100vw;
-    transition: 1s;
-}
-
 .btn__header__icon {
     background-color: transparent;
     border: none;

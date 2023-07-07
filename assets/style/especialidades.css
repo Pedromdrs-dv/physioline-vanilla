@@ -1,5 +1,6 @@
 .section__especialidades {
     padding: 5em;
+    padding-top: 5em;
     background: rgb(2, 0, 36);
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(59, 232, 176, 1) 100%, rgba(59, 232, 176, 1) 100%);
 }

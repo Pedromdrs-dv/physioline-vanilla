@@ -1,12 +1,12 @@
 .main {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    padding: 1% 5%;
+    padding: 5em;
+    padding-top: 5em;
     height: calc(100vh - 60px);
+    box-sizing: border-box;
+    transition: 1s;
 }
-
-
 
 .main__conteudo {
     display: flex;
@@ -15,11 +15,12 @@
     font-family: 'Cambay', sans-serif;
     font-weight: 700;
     width: 50%;
+    height: auto;
 }
 
 .main__conteudo h1 {
     font-size: 40px;
-    color: var(--color-green-nav);
+    color: #3ABFA7;
 }
 
 .main__conteudo p {
@@ -31,7 +32,7 @@
 .main__conteudo button {
     width: 250px;
     height: 60px;
-    background: var(--color-green-nav);
+    background: #3ABFA7;
     border-radius: 40px;
     color: #fff;
     font-family: 'Roboto';
@@ -46,5 +47,4 @@
 
 .main__img {
     width: 40%;
-    height: auto;
 }
