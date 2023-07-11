@@ -62,7 +62,7 @@ body {
         flex-direction: column;
         top: 0;
         background-color: #3ABFA7;
-        height: 100%;
+        height: calc(100vh - 35px);
         width: 35vw;
         padding: 1em;
         animation-duration: 1s;

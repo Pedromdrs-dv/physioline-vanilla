@@ -3,6 +3,7 @@
     padding: 5em;
     padding-top: 5em;
     color: #FFF;
+    width: 100%;
 }
 
 .footer__header {
@@ -17,7 +18,7 @@
     font-size: 1.8em;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 3.5em;
+    margin-bottom: 2.5em;
 }
 
 .footer__icon__baloon {
