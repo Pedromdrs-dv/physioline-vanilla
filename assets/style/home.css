@@ -40,7 +40,6 @@
     font-family: 'Roboto';
     font-size: 24px;
     border: none;
-    cursor: pointer;
 }
 
 .main__conteudo button:hover {
@@ -57,4 +56,34 @@
     width: 100%;
     height: auto;
     display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        height: auto;
+    }
+
+    .main img {
+        display: none;
+    }
+
+    .main__img {
+        display: none;
+    }
+
+    .main__conteudo p,
+    .main__conteudo h1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main__conteudo button {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
 }

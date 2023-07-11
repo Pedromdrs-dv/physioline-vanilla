@@ -3,6 +3,7 @@
     padding-top: 5em;
     background: rgb(2, 0, 36);
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(59, 232, 176, 1) 100%, rgba(59, 232, 176, 1) 100%);
+    height: auto;
 }
 
 .section__especialidades h2 {
@@ -63,6 +64,16 @@
 }
 
 .section__especialidades__card__content h4 {
-    font-family: Curs, sans-serif;
+    font-family: 'Kaushan Script', cursive;
     font-size: 24px;
+    color: #17554a;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section__especialidades h2,
+    .section__especialidades p {
+        text-align: center;
+    }
 }
