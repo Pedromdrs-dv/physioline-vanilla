@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/style/sobre.css">
     <link rel="stylesheet" href="assets/style/valores.css">
     <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/btn.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,6 +24,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/img/arrow-up.svg" alt=""></button>
     <header class="header" id="header">
         <button onclick="toogleSidebar()" class="btn__header__icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
@@ -32,7 +34,8 @@
             </svg>
         </button>
         <div class="header__logo">
-            <img class="header__img__logo" src="assets/img/logo.png" alt="Logo da Clínica Physioline">
+            <a href="index.html"><img class="header__img__logo" src="assets/img/logo.png"
+                    alt="Logo da Clínica Physioline"></a>
         </div>
 
         <nav class="header__nav" id="header__nav">
@@ -56,7 +59,9 @@
             <p>Descubra o Poder da Fisioterapia para uma recuperação completa. Nossos profissionais altamente
                 qualificados estão prontos para ajudá-lo! Deixe-nos cuidar de você e alcance uma vida mais saudável e
                 feliz.</p>
-            <button>Agendar</button>
+            <div class="container__btn">
+                <button>Agendar</button>
+            </div>
         </div>
         <div class="main__img">
             <img src="assets/img/redonda.svg" alt="">
@@ -273,7 +278,7 @@
                         Brasília, Brasil 70854-230</p>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15359.56011178837!2d-47.88568605875245!3d-15.75695585053417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a3497bc6487%3A0x947d0fb9241d1b0a!2sPhysioLine%20Pilates!5e0!3m2!1sen!2sbr!4v1688664124012!5m2!1sen!2sbr"
-                        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
@@ -287,9 +292,6 @@
             - 2023</p>
     </div>
 
-    <div>
-
-    </div>
 
     <script>
         var header = document.getElementById('header');
@@ -322,6 +324,26 @@
                 toogleSidebar();
             }
         });
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 </body>
 

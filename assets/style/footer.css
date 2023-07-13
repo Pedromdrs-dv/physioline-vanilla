@@ -31,7 +31,7 @@
 
 .footer__container {
     display: flex;
-    justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .footer__container__alt {
@@ -65,7 +65,7 @@
 }
 
 .footer__address {
-    padding: 5em;
+    padding: 3em;
 }
 
 .footer__address h2 {

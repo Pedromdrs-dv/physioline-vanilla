@@ -1,7 +1,7 @@
 .main {
     display: flex;
     justify-content: space-around;
-    padding: 7em;
+    padding: 8em;
     height: calc(100vh - 60px);
     box-sizing: border-box;
     transition: 1s;
@@ -12,6 +12,7 @@
 .main__conteudo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 3em;
     font-family: 'Cambay', sans-serif;
     font-weight: 700;
@@ -71,19 +72,26 @@
         display: none;
     }
 
-    .main__conteudo p,
     .main__conteudo h1 {
+        font-size: 2em;
         align-items: center;
         justify-content: center;
         text-align: center;
         width: 100%;
     }
 
-    .main__conteudo button {
+    .main__conteudo p {
+        font-size: 0.9em;
         align-items: center;
         justify-content: center;
         text-align: center;
-
+        width: 100%;
     }
+
+    .container__btn {
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
